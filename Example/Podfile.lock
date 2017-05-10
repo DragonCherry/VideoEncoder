@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - VideoEncoder (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - VideoEncoder (from `../`)
+
+EXTERNAL SOURCES:
+  VideoEncoder:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  VideoEncoder: 5f7b781890ef5ee48e76b7c639c3573ae4268363
+
+PODFILE CHECKSUM: 45c70c6059d76fc34f6a0521e4fdf2c597c4d122
+
+COCOAPODS: 1.2.1
