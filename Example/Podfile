@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VideoEncoder_Example' do
+  pod 'VideoEncoder', :path => '../'
+
+  target 'VideoEncoder_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
